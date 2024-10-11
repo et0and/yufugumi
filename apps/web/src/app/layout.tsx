@@ -14,10 +14,10 @@ const DepartureMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://v1.run"),
-  title: "Create v1",
+  metadataBase: new URL("https://denki.co.nz"),
+  title: "Denki",
   description:
-    "A free, open-source starter kit for your next project, built with insights from Midday.",
+    "Denki is a digital analytics company.",
 };
 
 export default function RootLayout({
