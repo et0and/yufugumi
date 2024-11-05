@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer className="flex items-center justify-center font-mono text-xs fixed bottom-8 w-full flex-col space-y-6">
-      <span className="text-[#878787]">Featuring</span>
+      <span className="text-gray-100">Trusted by</span>
 
       <div className="relative flex overflow-x-hidden space-x-6">
         <div className="flex items-center space-x-6 animate-marquee whitespace-nowrap lg:animate-none">

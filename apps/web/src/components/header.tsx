@@ -8,59 +8,38 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@v1/ui/dialog";
-import Image from "next/image";
-import Link from "next/link";
-import { SubscribeForm } from "./subscribe-form";
 
 export function Header() {
   return (
     <header className="absolute top-0 w-full flex items-center justify-between p-4 z-10">
-      <span className="hidden md:block text-sm font-medium">v1.run</span>
-
-      <Link href="/">
-        <Image
-          src="/logo.png"
-          alt="V1 logo"
-          width={60}
-          quality={100}
-          height={60}
-          className="md:absolute md:left-1/2 md:top-5 md:-translate-x-1/2"
-        />
-      </Link>
+      <span className="hidden md:block text-lg text-white font-medium font-departure">Yufugumi</span>
 
       <nav className="md:mt-2">
         <ul className="flex items-center gap-4">
-          <li>
+          {/* <li>
             <a
               href="https://github.com/midday-ai/v1"
-              className="text-sm px-4 py-2 bg-primary text-secondary rounded-full font-medium"
+              className="text-sm hover:bg-cyan-200 transition px-4 py-2 bg-primary text-secondary rounded-full font-medium font-departure"
             >
-              Github
+              Get started
             </a>
-          </li>
+          </li> */}
           <li>
             <Dialog>
               <DialogTrigger
-                className="text-sm px-4 py-2 bg-secondary text-primary rounded-full font-medium cursor-pointer"
+                className="text-sm font-departure px-4 py-2 bg-secondary text-primary rounded-full font-medium hover:bg-cyan-200 transition cursor-pointer"
                 asChild
               >
-                <span>Get updates</span>
+                <span>About</span>
               </DialogTrigger>
               <DialogContent>
                 <DialogHeader>
-                  <DialogTitle>Stay updated</DialogTitle>
-                  <DialogDescription>
-                    Subscribe to our newsletter to get the latest news and
-                    updates.
+                  <DialogTitle className="font-departure">Yufugumi</DialogTitle>
+                  <DialogDescription className="font-departure">
+                    In search of something meaningful
                   </DialogDescription>
                 </DialogHeader>
-
-                <div className="flex flex-col gap-4">
-                  <SubscribeForm
-                    group="v1-newsletter"
-                    placeholder="Email address"
-                  />
-                </div>
+                <p className="font-departure text-sm">Yufugumi is the creative office of Tom Hackshaw.</p>
               </DialogContent>
             </Dialog>
           </li>

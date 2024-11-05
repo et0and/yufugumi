@@ -14,10 +14,10 @@ const DepartureMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://denki.co.nz"),
-  title: "Denki",
+  metadataBase: new URL("https://yufugumi.com"),
+  title: "Yufugumi",
   description:
-    "Denki is a digital analytics company.",
+    "Yufugumi is a digital creation company.",
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={cn(
           `${DepartureMono.variable} ${GeistSans.variable} ${GeistMono.variable}`,
-          "antialiased dark",
+          "antialiased bg-blue-800",
         )}
       >
         <Header />
