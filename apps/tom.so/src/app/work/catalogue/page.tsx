@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getPaginatedCataloguePosts } from "@/app/db/catalogue";
-import { Separator } from "@/components/ui/separator/separator";
+import { Separator } from "@v1/ui/separator";
 
 export const metadata = {
   title: "Catalogue",

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { CustomMDX } from "@/components/mdx";
+import { CustomMDX } from "@/features/mdx";
 import { getCataloguePosts } from "@/app/db/catalogue";
-import { Separator } from "@/components/ui/separator/separator";
+import { Separator } from "@v1/ui/separator";
 import { cache, Suspense } from "react";
 
 interface PageParams {

@@ -1,12 +1,12 @@
 "use client";
 import Link from "next/link";
-import Image, { ImageProps } from "next/image";
+import Image from "next/image";
 import React, { ComponentType, ReactNode } from "react";
-import { Banner, BannerProps } from "./ui/banner/banner";
+import { Banner, BannerProps } from "@v1/ui/banner";
 import { YouTubeEmbed } from "@next/third-parties/google";
 import { InViewImagesGrid } from "./ui/in-view/in-view-images-grid";
-import { ArenaCarousel } from "./ui/carousel/arena-carousel";
-import ArenaWrapper from "./ui/arena-wrapper/arena-wrapper";
+import { ArenaCarousel } from "@v1/ui/arena-carousel";
+import ArenaWrapper from "@v1/ui/arena-wrapper";
 import Prism from "prismjs";
 import "prismjs/themes/prism-tomorrow.css";
 import "prismjs/components/prism-javascript";
@@ -18,11 +18,11 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "./ui/carousel/carousel";
+} from "@v1/ui/carousel";
 
 import dynamic from "next/dynamic";
 
-const ModelViewer = dynamic(() => import("./ui/model-viewer/model-viewer"), {
+const ModelViewer = dynamic(() => import("@v1/ui/model-viewer"), {
   ssr: false,
 });
 

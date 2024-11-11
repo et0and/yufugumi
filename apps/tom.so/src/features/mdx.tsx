@@ -1,13 +1,13 @@
 import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
 import { clientComponents } from "./mdxComponents";
-import { ComponentType, ReactNode } from "react";
-import { ArenaCarousel } from "./ui/carousel/arena-carousel";
-import { Banner } from "./ui/banner/banner";
+import { ComponentType } from "react";
+import { ArenaCarousel } from "@v1/ui/arena-carousel";
+import { Banner } from "@v1/ui/banner";
 import { InViewImagesGrid } from "./ui/in-view/in-view-images-grid";
-import ModelViewer from "./ui/model-viewer/model-viewer";
-import { Carousel } from "./ui/carousel/carousel";
+import ModelViewer from "@v1/ui/model-viewer";
+import { Carousel } from "@v1/ui/carousel";
 import { YouTubeEmbed } from "@next/third-parties/google";
-import ArenaWrapper from "./ui/arena-wrapper/arena-wrapper";
+import ArenaWrapper from "@v1/ui/arena-wrapper";
 
 // Define a type for the components that matches MDXRemote's expectations
 type MDXComponents = {

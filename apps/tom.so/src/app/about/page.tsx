@@ -4,13 +4,13 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/components/ui/avatar/avatar";
+} from "@v1/ui/avatar";
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/ui/card/hover-card";
-import { Separator } from "@/components/ui/separator/separator";
+} from "@v1/ui/hover-card";
+import { Separator } from "@v1/ui/separator";
 
 export const metadata: Metadata = {
   title: "About",
