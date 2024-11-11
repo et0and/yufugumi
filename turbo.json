@@ -18,7 +18,11 @@
         "OPENPANEL_SECRET_KEY",
         "SENTRY_AUTH_TOKEN",
         "SENTRY_ORG",
-        "SENTRY_PROJECT"
+        "SENTRY_PROJECT",
+        "KEYSTATIC_GITHUB_CLIENT_ID",
+        "KEYSTATIC_GITHUB_CLIENT_SECRET",
+        "KEYSTATIC_SECRET",
+        "NEXT_PUBLIC_KEYSTATIC_GITHUB_APP_SLUG"
       ],
       "inputs": ["$TURBO_DEFAULT$", ".env"],
       "dependsOn": ["^build"],
