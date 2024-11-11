@@ -4,7 +4,7 @@ import KeystaticApp from "./keystatic";
 export const metadata: Metadata = {
   metadataBase: new URL("https://tom.so"),
   title: {
-    default: "Admin",
+    default: "Keystatic",
     template: "%s | Tom Hackshaw",
   },
   description: "Tom Hackshaw is a design engineer from Pōneke, Aotearoa.",
