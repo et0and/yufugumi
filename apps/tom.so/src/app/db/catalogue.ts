@@ -27,17 +27,24 @@ function parseFrontmatter(fileContent: string): {
   let metadata: Partial<Metadata> = {};
 
   frontMatterLines.forEach((line) => {
-    let [key, ...valueArr] = line.split(": ");
-    let value = valueArr.join(": ").trim();
-    value = value.replace(/^['"](.*)['"]$/, "$1");
-    metadata[key.trim() as keyof Metadata] = value;
-  });
+    const [key = "", ...valueArr] = line.split(": ");
+    const value = valueArr.join(": ").trim();
+    const trimmedKey = key.trim();
+    if (isValidMetadataKey(trimmedKey)) {
+        metadata[trimmedKey] = value;
+    }
+});
 
   if (!metadata.title || !metadata.publishedAt || !metadata.summary) {
     throw new Error("Invalid frontmatter: missing required fields");
   }
 
   return { metadata: metadata as Metadata, content };
+}
+
+// Type guard function to check if a string is a valid Metadata key
+function isValidMetadataKey(key: string): key is keyof Metadata {
+  return ['title', 'publishedAt', 'summary', 'image'].includes(key);
 }
 
 function getMDXFiles(dir: string): string[] {
