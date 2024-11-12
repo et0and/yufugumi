@@ -4,7 +4,8 @@ import { inline, block } from "@keystatic/core/content-components";
 export default config({
   storage: {
     kind: "github",
-    repo: "et0and/tom.so",
+    repo: "et0and/yufugumi",
+    pathPrefix: "apps/tom.so"
   },
   ui: {
     brand: { name: "Tom Hackshaw" },
