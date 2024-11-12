@@ -49,12 +49,8 @@ export default function About() {
               Te Wāhi Auaha
             </a>
           </HoverCardTrigger>
-          <HoverCardContent className="w-80">
+          <HoverCardContent className="w-80 dark:bg-black bg-white rounded shadow-xl">
             <div className="flex justify-between space-x-4">
-              <Avatar>
-                <AvatarImage src="/twa.png" />
-                <AvatarFallback>Te Wāhi</AvatarFallback>
-              </Avatar>
               <div className="space-y-1">
                 <p className="text-sm font-semibold">Te Wāhi Auaha</p>
                 <p className="text-sm">
@@ -86,12 +82,8 @@ export default function About() {
               Elam School of Fine Arts
             </a>
           </HoverCardTrigger>
-          <HoverCardContent className="w-80">
+          <HoverCardContent className="w-80 dark:bg-black bg-white rounded shadow-xl">
             <div className="flex justify-between space-x-4">
-              <Avatar>
-                <AvatarImage src="/uoa.jpg" />
-                <AvatarFallback>Elam</AvatarFallback>
-              </Avatar>
               <div className="space-y-1">
                 <p className="text-sm font-semibold">
                   Elam School of Fine Arts
@@ -123,12 +115,8 @@ export default function About() {
               are.na
             </a>
           </HoverCardTrigger>
-          <HoverCardContent className="w-80">
+          <HoverCardContent className="w-80 dark:bg-black bg-white rounded shadow-xl">
             <div className="flex justify-between space-x-4">
-              <Avatar>
-                <AvatarImage src="/arena.jpg" />
-                <AvatarFallback>Are.na</AvatarFallback>
-              </Avatar>
               <div className="space-y-1">
                 <p className="text-sm font-semibold">Are.na</p>
                 <p className="text-sm">
@@ -153,12 +141,9 @@ export default function About() {
               Read.cv
             </a>
           </HoverCardTrigger>
-          <HoverCardContent className="w-80">
+          <HoverCardContent className="w-80 dark:bg-black bg-white rounded shadow-xl">
             <div className="flex justify-between space-x-4">
-              <Avatar>
-                <AvatarImage src="/readcv.svg" />
-                <AvatarFallback>Read.cv</AvatarFallback>
-              </Avatar>
+              
               <div className="space-y-1">
                 <p className="text-sm font-semibold">Read.cv</p>
                 <p className="text-sm">
@@ -183,12 +168,9 @@ export default function About() {
               Merveilles
             </a>
           </HoverCardTrigger>
-          <HoverCardContent className="w-80">
+          <HoverCardContent className="w-80 dark:bg-black bg-white rounded shadow-xl">
             <div className="flex justify-between space-x-4">
-              <Avatar>
-                <AvatarImage src="/merveilles.png" />
-                <AvatarFallback>Merveilles</AvatarFallback>
-              </Avatar>
+            
               <div className="space-y-1">
                 <p className="text-sm font-semibold">Merveilles</p>
                 <p className="text-sm">
@@ -217,12 +199,9 @@ export default function About() {
               Urbit
             </a>
           </HoverCardTrigger>
-          <HoverCardContent className="w-80">
+          <HoverCardContent className="w-80 dark:bg-black bg-white rounded shadow-xl shadow-xl">
             <div className="flex justify-between space-x-4">
-              <Avatar>
-                <AvatarImage src="/urbit.webp" />
-                <AvatarFallback>Urbit</AvatarFallback>
-              </Avatar>
+              
               <div className="space-y-1">
                 <p className="text-sm font-semibold">Urbit</p>
                 <p className="text-sm">

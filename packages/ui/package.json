@@ -28,6 +28,7 @@
     "./banner": "./src/components/banner.tsx",
     "./card": "./src/components/card.tsx",
     "./carousel": "./src/components/carousel.tsx",
+    "./disclosure": "./src/components/disclosure.tsx",
     "./dropdown-menu": "./src/components/dropdown-menu.tsx",
     "./hover-card": "./src/components/hover-card.tsx",
     "./model-viewer": "./src/components/model-viewer.tsx",
