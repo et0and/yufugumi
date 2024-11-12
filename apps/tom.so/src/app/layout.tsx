@@ -3,7 +3,7 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import Navbar from "@/features/ui/navbar/navbar";
 import Footer from "@/features/ui/footer/footer";
-import "./globals.css";
+import "@v1/ui/globals.css";
 import { SkipLink } from "@v1/ui/skiplink";
 
 export const viewport: Viewport = {
