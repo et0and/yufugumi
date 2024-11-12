@@ -1,0 +1,18 @@
+{
+  "index": {
+    "title": "Introduction",
+    "type": "page"
+  },
+  "how-to": {
+    "title": "How to ...",
+    "type": "page"
+  },
+  "tools": {
+    "title": "Tools",
+    "type": "page"
+  },
+  "projects": {
+    "title": "Projects",
+    "type": "page"
+  }
+}
