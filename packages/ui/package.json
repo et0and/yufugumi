@@ -35,6 +35,7 @@
     "./skiplink": "./src/components/skiplink.tsx",
     "./separator": "./src/components/separator.tsx",
     "./skeleton": "./src/components/skeleton.tsx",
+    "./sheet": "./src/components/sheet.tsx",
     "./input": "./src/components/input.tsx",
     "./tooltip": "./src/components/tooltip.tsx",
     "./dialog": "./src/components/dialog.tsx",
@@ -43,7 +44,7 @@
     "./postcss": "./postcss.config.js"
   },
   "dependencies": {
-    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.2",
     "class-variance-authority": "^0.7.0",
