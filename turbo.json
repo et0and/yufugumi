@@ -22,7 +22,8 @@
         "KEYSTATIC_GITHUB_CLIENT_ID",
         "KEYSTATIC_GITHUB_CLIENT_SECRET",
         "KEYSTATIC_SECRET",
-        "NEXT_PUBLIC_KEYSTATIC_GITHUB_APP_SLUG"
+        "NEXT_PUBLIC_KEYSTATIC_GITHUB_APP_SLUG",
+        "UMAMI_DATABASE_URL"
       ],
       "inputs": ["$TURBO_DEFAULT$", ".env"],
       "dependsOn": ["^build"],
