@@ -1,6 +1,4 @@
 import "@v1/ui/globals.css";
-import { Footer } from "@/components/footer";
-import { Header } from "@/components/header";
 import { Provider as AnalyticsProvider } from "@v1/analytics/client";
 import { cn } from "@v1/ui/cn";
 import { GeistMono } from "geist/font/mono";
@@ -17,7 +15,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://yufugumi.com"),
   title: "Yufugumi",
   description:
-    "Yufugumi is a digital creation company.",
+    "In search of something meaningful.",
 };
 
 export default function RootLayout({
@@ -30,12 +28,10 @@ export default function RootLayout({
       <body
         className={cn(
           `${DepartureMono.variable} ${GeistSans.variable} ${GeistMono.variable}`,
-          "antialiased bg-blue-800",
+          "antialiased bg-blue-50 text-black selection:bg-yellow-200",
         )}
       >
-        <Header />
         {children}
-        <Footer />
 
         <AnalyticsProvider />
       </body>
