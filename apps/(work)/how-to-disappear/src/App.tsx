@@ -20,7 +20,7 @@ function Loading() {
 
   return loadingSegmenter ? (
     <div className="absolute inset-0 flex items-center justify-center bg-neutral-800 bg-opacity-60">
-      <div className="text-lg text-neutral-100 animate-bounce">Loading segmenter...</div>
+      <div className="text-lg text-neutral-100 animate-bounce">Loading ...</div>
     </div>
   ) : null;
 }
