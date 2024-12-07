@@ -3,13 +3,13 @@ export default function Component() {
     <div className="min-h-screen bg-blue-50 flex items-center justify-center p-4 font-mono text-gray-600">
       <div className="w-full max-w-[600px] space-y-8">
         <div className="text-center space-y-1">
-          <div className="uppercase">"Yufugumi"</div>
+          <div className="uppercase">Yufugumi Holdings</div>
           <div className="text-sm">c/o: <a href="https://tom.so" className="hover:text-blue-900">tom hackshaw</a></div>
         </div>
 
         <div className="border-t border-b border-gray-300 py-4 space-y-2">
           <div className="flex justify-between">
-            <div>A creative office and research lab</div>
+            <div>In search of something meaningful</div>
             <div>芸術スタジオと研究室</div>
           </div>
           <div className="grid grid-cols-2 gap-x-8 text-sm">
@@ -19,23 +19,17 @@ export default function Component() {
             <div>1094764</div>
             <div>Reference</div>
             <div>info@yufugumi.com</div>
-            <div>Payment method</div>
-            <div>American Express ...1995</div>
-            <div>Tax/VAT</div>
-            <div>¥0</div>
           </div>
         </div>
 
-        <div className="flex justify-between">
-          <div>In search of</div>
-          <div>意味のあること</div>
-        </div>
-
-        <div className="text-center text-sm space-y-1 pt-8">
-          <div>(˶ᵔ ᵕ ᵔ˶)</div>
-          <div>Te Upoko o te Ika</div>
-          <div>Aoteroa</div>
-          <div>b. 1995</div>
+        <div className="text-center">
+          <a
+              href="https://denki.co.nz"
+              className="underline hover:text-blue-900"
+            >Denki デンキ</a>
+          <div className="underline hover:text-blue-900">Gingko 銀杏</div>
+          <div className="underline hover:text-blue-900">Conexus コネクサス</div>
+          <div className="underline hover:text-blue-900">OdenPDF オデンPDF</div>
         </div>
 
         <div className="text-center space-y-4 pt-8">
@@ -46,9 +40,8 @@ export default function Component() {
               href="mailto:info@yufugumi.com"
               className="underline hover:text-blue-900"
             >
-              send us
-            </a>{" "}
-            a note.
+              send us a note.
+            </a>
           </div>
         </div>
       </div>

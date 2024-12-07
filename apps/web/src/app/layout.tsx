@@ -13,7 +13,7 @@ const DepartureMono = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://yufugumi.com"),
-  title: "Yufugumi",
+  title: "Yufugumi Holdings",
   description:
     "In search of something meaningful.",
 };
