@@ -1,13 +1,11 @@
 import { baseOptions } from "@/app/layout.config";
-import { Live } from "@/components/live";
+import Live from "@/components/live";
 import { sanityFetch } from "@/sanity/lib/live";
 import { DOCS_QUERY } from "@/sanity/lib/queries";
 import type { DOCS_QUERYResult } from "@/sanity/types";
 import type { PageTree } from "fumadocs-core/server";
 import { DocsLayout } from "fumadocs-ui/layouts/notebook";
 import React, { type ReactNode } from "react";
-
-import { Suspense } from "react";
 
 export default async function Layout({ children }: { children: ReactNode }) {
   const live = await Live();
