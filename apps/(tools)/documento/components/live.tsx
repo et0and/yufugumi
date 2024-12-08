@@ -3,7 +3,7 @@ import { draftMode } from "next/headers";
 import { DisableDraftMode } from "@/components/draft-mode";
 import { VisualEditing } from "next-sanity";
 
-export async function Live() {
+export default async function Live() {
   return (
     <>
       <SanityLive />

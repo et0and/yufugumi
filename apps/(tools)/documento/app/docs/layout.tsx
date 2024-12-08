@@ -7,11 +7,16 @@ import type { PageTree } from "fumadocs-core/server";
 import { DocsLayout } from "fumadocs-ui/layouts/notebook";
 import React, { type ReactNode } from "react";
 
+import { Suspense } from "react";
+
 export default async function Layout({ children }: { children: ReactNode }) {
+  const live = await Live();
+  const content = await Content({ children });
+
   return (
     <>
-      <Live />
-      <Content>{children}</Content>
+      {live}
+      {content}
     </>
   );
 }
