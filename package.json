@@ -12,6 +12,7 @@
     "dev:disappear": "turbo dev --filter=@v1/(work)/how-to-disappear",
     "dev:hold": "turbo dev --filter=@v1/(work)/hold",
     "dev:pdf": "turbo dev --filter=@v1/(tools)/pdf-edit",
+    "dev:doc": "turbo dev --filter=@v1/(tools)/documento",
     "dev:serif": "turbo dev --filter=@v1/(templates)/serif",
     "dev:nexhibit": "turbo dev --filter=@v1/(templates)/nexhibit",
     "dev:jobs": "turbo jobs --filter=@v1/jobs",
@@ -22,6 +23,7 @@
     "start:disappear": "turbo start --filter=@v1/(work)/how-to-disappear",
     "start:hold": "turbo start --filter=@v1/(work)/hold",
     "start:pdf": "turbo start --filter=@v1/(tools)/pdf-edit",
+    "start:docs": "turbo start --filter=@v1/(tools)/documento",
     "start:serif": "turbo start --filter=@v1/(templates)/serif",
     "start:nexhibit": "turbo start --filter=@v1/(templates)/nexhibit",
     "start:app": "turbo start --filter=@v1/app",
@@ -40,10 +42,7 @@
     "typescript": "^5.5.4"
   },
   "packageManager": "bun@1.1.26",
-  "trustedDependencies": [
-    "@biomejs/biome",
-    "protobufjs"
-  ],
+  "trustedDependencies": ["@biomejs/biome", "protobufjs"],
   "dependencies": {
     "turbopack": "^0.0.1"
   }
