@@ -5,9 +5,9 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PDF metadata editor",
-  description: "Edit PDF metadata in the browser",
-  manifest: "/manifest.json"
+  title: "OdenPDF",
+  description: "Edit PDFs in the browser",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
