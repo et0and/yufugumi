@@ -7,7 +7,7 @@
     "dev": "next dev",
     "start": "next start",
     "typegen": "sanity schema extract --path=sanity/extract.json && sanity typegen generate",
-    "postinstall": "pnpm run typegen"
+    "postinstall": "bun run typegen"
   },
   "dependencies": {
     "@portabletext/react": "^3.1.0",
